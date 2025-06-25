@@ -1,0 +1,7 @@
+import os
+
+API_STOCKS = ["ADANIENT.NS", "HDFCBANK.NS", "TATAMOTORS.NS"]
+SHEET_NAME = "AlgoTradingSheet"
+GOOGLE_CREDS_FILE = "credentials.json"
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
